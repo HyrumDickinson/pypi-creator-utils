@@ -1,1 +1,1 @@
-pytest --cov=src/grade_calculator tests/
+pytest --cov=src/<insert package name> tests/

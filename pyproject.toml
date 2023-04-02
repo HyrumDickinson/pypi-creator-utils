@@ -5,12 +5,12 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "grade_calculator"
-version = "0.0.0"
+name = "<insert name>"
+version = "<x.x.x>"
 authors = [
-    { name = "Hyrum Dickinson", email = "hyrumsd2@illinois.edu" }
+    { name = "<insert name>", email = "<insert email>" }
 ]
-description = "Grade calculator using 4.0 American grading scale"
+description = "<insert package description>"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
@@ -20,26 +20,15 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 keywords = [
-    "grade",
-    "calculator",
-    "gpa",
-    "school",
-    "college",
-    "university",
-    "grading"
+    "insert",
+    "keywords",
 ]
-#dependencies = [
-#]
-
 
 [project.optional-dependencies]
 dev = ["flake8", "pylint", "bumpver", "isort", "pip-tools", "pytest"]
 
 [project.urls]
-Homepage = "https://github.com/HyrumDickinson/grade_calculator/"
-
-# [project.scripts]
-# new-undergrad = "grade_calculator.grade_calculator.main:main"
+Homepage = "https://github.com/HyrumDickinson/<insert link>/"
 
 [tool.bumpver]
 current_version = "0.0.0"

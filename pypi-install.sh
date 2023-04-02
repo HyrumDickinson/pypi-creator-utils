@@ -1,1 +1,1 @@
-python -m pip install --upgrade grade_calculator
+python -m pip install --upgrade <insert package name>
