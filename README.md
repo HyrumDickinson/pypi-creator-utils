@@ -2,10 +2,6 @@
 
 README.md template below
 
-# <insert package name>
-
-<insert package description>
-
 ## Installation
 
 Install from PyPI:
